@@ -11,6 +11,8 @@
     <form id="form1" runat="server">
         <div>
             <h1>디폴트 페이지</h1>
+            <ol><li><asp:LinkButton ID="lBtn02" Text="foreach 사용 샘플 페이지" runat="server" PostBackUrl="~/Ex_Page_01/Ex_foreach.aspx" /></li></ol>
+                
         </div>
     </form>
 </body>

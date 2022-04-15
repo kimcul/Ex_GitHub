@@ -7,11 +7,11 @@
 // </자동 생성됨>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1
+namespace WebApplication1.Ex_Page_01
 {
 
 
-    public partial class Default
+    public partial class Ex_foreach
     {
 
         /// <summary>
@@ -24,12 +24,12 @@ namespace WebApplication1
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// lBtn02 컨트롤입니다.
+        /// ltlDisplay 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lBtn02;
+        protected global::System.Web.UI.WebControls.Literal ltlDisplay;
     }
 }
