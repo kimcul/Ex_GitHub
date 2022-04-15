@@ -11,6 +11,9 @@
     <form id="form1" runat="server">
         <div>
             <h1>디폴트 페이지</h1>
+            <ol>
+                <li><asp:LinkButton ID="lBtn01" Text="서버 사이트 클릭이벤트 예제" runat="server" PostBackUrl="~/Ex_Page/ExOnClick.aspx" /></li>
+            </ol>
         </div>
     </form>
 </body>
