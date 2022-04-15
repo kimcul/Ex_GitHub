@@ -12,7 +12,8 @@
         <div>
             <h1>디폴트 페이지</h1>
             <ol>
-                <li><asp:LinkButton ID="lBtn01" Text="서버 사이트 클릭이벤트 예제" runat="server" PostBackUrl="~/Ex_Page/ExOnClick.aspx" /></li>
+                <li><asp:LinkButton ID="lBtn01" Text="서버 사이트 클릭이벤트 예제" runat="server" PostBackUrl="~/Ex_Page/ExOnClick.aspx" /></li>    
+                <li><asp:LinkButton ID="lBtn02" Text="foreach 사용 샘플 페이지" runat="server" PostBackUrl="~/Ex_Page_01/Ex_foreach.aspx" /></li>
             </ol>
         </div>
     </form>

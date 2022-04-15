@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Ex_Page\ExOnClick.aspx" />
+    <Content Include="Ex_Page_01\Ex_foreach.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -86,6 +87,13 @@
     </Compile>
     <Compile Include="Ex_Page\ExOnClick.aspx.designer.cs">
       <DependentUpon>ExOnClick.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Page_01\Ex_foreach.aspx.cs">
+      <DependentUpon>Ex_foreach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ex_Page_01\Ex_foreach.aspx.designer.cs">
+      <DependentUpon>Ex_foreach.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
